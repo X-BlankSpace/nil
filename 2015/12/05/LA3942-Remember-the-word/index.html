@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Trie," />
 
 
 
@@ -84,12 +84,19 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="yangchen">
-<meta property="og:url" content="http://x-blankspace.github.io/archives/index.html">
+<meta name="description" content="给出一个由S个不同单词组成的字典和一个长字符串Str。把这个字符串分解成若干个单词的连接（单词可以重复使用），有多少种方法？比如，有4个单词a,b,cd,ab，则abcd有两种分解方法：a+b+cd和ab+cd。
+输入包含多组数据，每组数据第一行为待分解的字符串，其长度L不超过300 000。第二行为单词个数S，$1\leq S\leq4000$。 以下S行每行为一个单词，由不超过100个小写字母">
+<meta property="og:type" content="article">
+<meta property="og:title" content="LA3942 Remember the word">
+<meta property="og:url" content="http://x-blankspace.github.io/2015/12/05/LA3942-Remember-the-word/index.html">
 <meta property="og:site_name" content="yangchen">
+<meta property="og:description" content="给出一个由S个不同单词组成的字典和一个长字符串Str。把这个字符串分解成若干个单词的连接（单词可以重复使用），有多少种方法？比如，有4个单词a,b,cd,ab，则abcd有两种分解方法：a+b+cd和ab+cd。
+输入包含多组数据，每组数据第一行为待分解的字符串，其长度L不超过300 000。第二行为单词个数S，$1\leq S\leq4000$。 以下S行每行为一个单词，由不超过100个小写字母">
+<meta property="og:updated_time" content="2016-10-17T13:56:34.914Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="yangchen">
+<meta name="twitter:title" content="LA3942 Remember the word">
+<meta name="twitter:description" content="给出一个由S个不同单词组成的字典和一个长字符串Str。把这个字符串分解成若干个单词的连接（单词可以重复使用），有多少种方法？比如，有4个单词a,b,cd,ab，则abcd有两种分解方法：a+b+cd和ab+cd。
+输入包含多组数据，每组数据第一行为待分解的字符串，其长度L不超过300 000。第二行为单词个数S，$1\leq S\leq4000$。 以下S行每行为一个单词，由不超过100个小写字母">
 
 
 
@@ -110,10 +117,10 @@
 
 
 
-  <link rel="canonical" href="http://x-blankspace.github.io/archives/"/>
+  <link rel="canonical" href="http://x-blankspace.github.io/2015/12/05/LA3942-Remember-the-word/"/>
 
 
-  <title> Archive | yangchen </title>
+  <title> LA3942 Remember the word | yangchen </title>
 </head>
 
 <body itemscope itemtype="//schema.org/WebPage" lang="en">
@@ -134,7 +141,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  page-archive  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="//schema.org/WPHeader">
@@ -245,256 +252,163 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
-
-    <span class="archive-page-counter">
-      
-      
-      
-        
-      
-      Um..! 6 posts in total. Keep on posting.
-    </span>
-
+  <div id="posts" class="posts-expand">
     
-
-      
-      
-      
-
-      
-        
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2016">2016</h2>
-        </div>
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="//schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/10/21/tyvj-1011-传纸条/" itemprop="url">
-              
-                <span itemprop="name">tyvj 1011 传纸条</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-10-21T22:41:05+08:00"
-              content="2016-10-21" >
-          10-21
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="//schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/10/17/hello-world/" itemprop="url">
-              
-                <span itemprop="name">Hello World</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-10-17T16:18:48+08:00"
-              content="2016-10-17" >
-          10-17
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="//schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/10/08/tyvj-1008-传球游戏/" itemprop="url">
-              
-                <span itemprop="name">tyvj 1008 传球游戏</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-10-08T00:00:00+08:00"
-              content="2016-10-08" >
-          10-08
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-        
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2015">2015</h2>
-        </div>
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="//schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2015/12/05/LA3942-Remember-the-word/" itemprop="url">
-              
-                <span itemprop="name">LA3942 Remember the word</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2015-12-05T00:00:00+08:00"
-              content="2015-12-05" >
-          12-05
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="//schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2015/11/23/判断一个数能否被一些特殊自然数整除的方法及其证明/" itemprop="url">
-              
-                <span itemprop="name">判断一个数能否被一些特殊自然数整除的方法及其证明</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2015-11-23T00:00:00+08:00"
-              content="2015-11-23" >
-          11-23
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="//schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2015/11/16/USACO-1-1-4-Mother-s-Milk/" itemprop="url">
-              
-                <span itemprop="name">USACO 1.1.4 Mother's Milk</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2015-11-16T00:00:00+08:00"
-              content="2015-11-16" >
-          11-16
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-  </section>
 
   
+  
 
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                LA3942 Remember the word
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2015-12-05T00:00:00+08:00" content="2015-12-05">
+              2015-12-05
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Algorithm/" itemprop="url" rel="index">
+                    <span itemprop="name">Algorithm</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2015/12/05/LA3942-Remember-the-word/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/05/LA3942-Remember-the-word/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2015/12/05/LA3942-Remember-the-word/" class="leancloud_visitors" data-flag-title="LA3942 Remember the word">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">visitors </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>给出一个由S个不同单词组成的字典和一个长字符串Str。把这个字符串分解成若干个单词的连接（单词可以重复使用），有多少种方法？比如，有4个单词a,b,cd,ab，则abcd有两种分解方法：a+b+cd和ab+cd。</p>
+<p>输入包含多组数据，每组数据第一行为待分解的字符串，其长度L不超过300 000。第二行为单词个数S，$1\leq S\leq4000$。 以下S行每行为一个单词，由不超过100个小写字母组成。对每组数据输出方案数模20 071 027。<a id="more"></a></p>
+<p>递推：令d(i)表示字符串Str[i…(L-1)]的分解方案数，d(i)=sum{d(i+len(x) | 单词x是Str[i…(L-1)]的前缀}，若Str[i…(L-1)]在字典中，则d(i)应加1。<br>用Trie来保存字符串集合，单词的长度最大为100，求解d(i)时最多只需要判断100次。</p>
+<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstdio&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstring&gt;</span></span></div><div class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</div><div class="line"><span class="keyword">const</span> <span class="keyword">int</span> maxnode=<span class="number">4000</span>*<span class="number">100</span>+<span class="number">10</span>,maxsize=<span class="number">26</span>;</div><div class="line"><span class="keyword">int</span> ch[maxnode][maxsize],val[maxnode],sz;</div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">idx</span><span class="params">(<span class="keyword">char</span> c)</span> </span>&#123; <span class="keyword">return</span> c-<span class="string">'a'</span>; 	&#125;	</div><div class="line"><span class="function"><span class="keyword">void</span> <span class="title">insert</span><span class="params">(<span class="keyword">char</span> *s)</span></span>&#123;</div><div class="line">	<span class="keyword">int</span> u=<span class="number">0</span>,n=<span class="built_in">strlen</span>(s);</div><div class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;n;i++)&#123;</div><div class="line">		<span class="keyword">int</span> c=idx(s[i]);</div><div class="line">		<span class="keyword">if</span>(!ch[u][c])&#123;</div><div class="line">			<span class="built_in">memset</span>(ch[sz],<span class="number">0</span>,<span class="keyword">sizeof</span>(ch[sz]));</div><div class="line">			val[sz]=<span class="number">0</span>;</div><div class="line">			ch[u][c]=sz++;</div><div class="line">			&#125;</div><div class="line">		u=ch[u][c];</div><div class="line">		&#125;</div><div class="line">	val[u]=<span class="number">1</span>;	</div><div class="line">&#125;</div><div class="line"><span class="keyword">int</span> d[<span class="number">300000</span>+<span class="number">10</span>],kase;</div><div class="line"><span class="keyword">char</span> words[<span class="number">4000</span>+<span class="number">10</span>][<span class="number">100</span>+<span class="number">5</span>],str[<span class="number">300000</span>+<span class="number">10</span>];</div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</div><div class="line">	<span class="keyword">int</span> n;</div><div class="line">	<span class="keyword">while</span>(~<span class="built_in">scanf</span>(<span class="string">"%s"</span>,str))&#123;</div><div class="line">    <span class="built_in">memset</span>(val,<span class="number">0</span>,<span class="keyword">sizeof</span>(val)),<span class="built_in">memset</span>(d,<span class="number">0</span>,<span class="keyword">sizeof</span>(d));</div><div class="line">	<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;n);</div><div class="line">	sz=<span class="number">1</span>;<span class="built_in">memset</span>(ch[<span class="number">0</span>],<span class="number">0</span>,<span class="keyword">sizeof</span>(ch[<span class="number">0</span>]));	</div><div class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;n;i++) &#123;  <span class="built_in">scanf</span>(<span class="string">"%s"</span>,words[i]);insert(words[i]);	&#125;</div><div class="line">	</div><div class="line">	</div><div class="line">	<span class="keyword">int</span> len=<span class="built_in">strlen</span>(str);</div><div class="line">	d[len<span class="number">-1</span>]=ch[<span class="number">0</span>][str[len<span class="number">-1</span>]-<span class="string">'a'</span>]?<span class="number">1</span>:<span class="number">0</span>;</div><div class="line">	</div><div class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=len<span class="number">-2</span>;i&gt;=<span class="number">0</span>;i--)&#123;</div><div class="line">		<span class="keyword">int</span> u=<span class="number">0</span>,j=i;</div><div class="line">		<span class="keyword">while</span>(j&lt;=len<span class="number">-1</span>&amp;&amp;ch[u][str[j]-<span class="string">'a'</span>])&#123;  </div><div class="line">			<span class="keyword">if</span>(val[ch[u][str[j]-<span class="string">'a'</span>]]) d[i]+=d[j+<span class="number">1</span>],d[i]%=<span class="number">20071027</span>;</div><div class="line">			u=ch[u][str[j]-<span class="string">'a'</span>];</div><div class="line">			j++;	</div><div class="line">		&#125;</div><div class="line">		<span class="keyword">if</span>(j==len&amp;&amp;val[u]) d[i]++;</div><div class="line">	&#125;</div><div class="line">	</div><div class="line">	<span class="built_in">printf</span>(<span class="string">"Case %d: %d\n"</span>,++kase,d[<span class="number">0</span>]%<span class="number">20071027</span>);</div><div class="line">	&#125;</div><div class="line">	<span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Trie/" rel="tag">#Trie</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/11/23/判断一个数能否被一些特殊自然数整除的方法及其证明/" rel="next" title="判断一个数能否被一些特殊自然数整除的方法及其证明">
+                <i class="fa fa-chevron-left"></i> 判断一个数能否被一些特殊自然数整除的方法及其证明
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/10/08/tyvj-1008-传球游戏/" rel="prev" title="tyvj 1008 传球游戏">
+                tyvj 1008 传球游戏 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -502,6 +416,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2015/12/05/LA3942-Remember-the-word/"
+           data-title="LA3942 Remember the word" data-url="http://x-blankspace.github.io/2015/12/05/LA3942-Remember-the-word/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -521,8 +443,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="//schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.jpeg"
@@ -583,6 +514,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Code"><span class="nav-number">1.</span> <span class="nav-text">Code</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -686,11 +628,9 @@
 
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.2"></script>
+
 
 
   
