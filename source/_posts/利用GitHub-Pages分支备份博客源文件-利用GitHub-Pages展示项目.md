@@ -13,12 +13,12 @@ categories:
 	<li>在博客对应的Repository里找到Branches按钮，在搜索框里输入backup，创建一个新的分支</li>
     <li>在setting--Branches--Default branch中将backup设置为默认的分支，这样git push时就会push到这个分支上</li>
 	<li>在本地任意新建一个文件夹，clone博客对应的Repository到这里，复制.git文件夹到你的本地博客的hexo文件夹下，并把hexo文件夹下的_config.yml里的deploy--branch参数修改为master</li>
-	<li>在git客户端中定位到hexo文件夹，使用命令`git checkout -b backup`新建本地分支backup,然后`git push origin backup`即可</li>
+	<li>在git客户端中定位到hexo文件夹，使用命令`git checkout -b backup`新建本地分支backup,然后`git push`即可</li>
 </ul>
 ## 日常更新博客
 <ul>
 	<li>对博客进行更新</li>
-	<li>依次执行`git add .` 、 `git commit -m "some message"` 、 `git push origin backup`推送源文件</li>
+	<li>依次执行`git add .` 、 `git commit -m "some message"` 、 `git push`推送源文件</li>
 	<li>依次执行`hexo g` 、 `hexo d` 生成、部署博客</li>
 </ul>
 # 利用GitHub Pages展示项目
