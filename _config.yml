@@ -81,3 +81,6 @@ deploy:
   bransh: master
 
 mathjax: true
+
+sitemap:
+  path: sitemap.xml
