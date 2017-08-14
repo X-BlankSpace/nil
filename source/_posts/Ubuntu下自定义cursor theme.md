@@ -38,4 +38,4 @@ xcursorgen arrow.cursor arrow
 
 3.建议使用Unity Tweak Tool，可以方便地进行各种设置
 
-4.即使替换主题中所有图样为左上箭头的X11指针，以上步骤仍不能改变浏览器等应用中的cursor图样。切换不同的系统自带cursor theme也可以发现，在这些应用中cursor图样始终不变。
+4.如果浏览器等应用中的cursor图样没有改变，重启即可。
