@@ -8,7 +8,7 @@ tags:
 categories: 
 - Node.js
 ---
-最近图虫网改版了，半年前写的代码已经不再适用，于是对代码进行整理，重写部分代码，并做了适当的优化。代码已push至<a href="https://github.com/X-BlankSpace/DownloadPicturesFromTuchong.com">GitHub</a>。<!--more-->
+最近图虫网改版了，半年前写的代码已经不再适用，于是对代码进行整理，重写部分代码，并做了适当的优化。代码已push至<a href="https://github.com/X-BlankSpace/DownloadPicturesFromTuchong.com">GitHub</a>。
 项目主要实现了从图虫网下载图片到本地。其中
 
 ## 下载方式分为两种
@@ -16,6 +16,8 @@ categories:
 2. 指定图片集地址，下载该图片集，图片保存在 PicturesFromTuchong\singleSet 文件夹下。
 
 同时，每个图片集保存在一个文件夹中，文件夹里包含一个描述图片集信息的README.txt文档。
+
+<!--more-->
 
 ## 项目主要由五个文件组成
 > 1. index.js，用于启动项目

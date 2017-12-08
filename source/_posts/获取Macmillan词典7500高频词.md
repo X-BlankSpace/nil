@@ -7,7 +7,7 @@ tags:
 categories: 
 - Node.js
 ---
-感觉词汇量捉急，所以想先背点词汇，再通过阅读强化。比较靠谱的高频词汇表有从COCA(Corpus of Contemporary American English 美国当代英语语料库)整理出的5k和20k个高频词汇表，和Macmillan词典标示的7.5k个高频词汇。Macmillan词典将这7.5k个词汇分别用一星，二星，三星标示，其中三星的使用频率最高。我比较喜欢Macmillan的词汇表，从COCA整理出的词汇表网上很多，但我没找到Macmillan的，于是决定自己提取。<!--more-->
+感觉词汇量捉急，所以想先背点词汇，再通过阅读强化。比较靠谱的高频词汇表有从COCA(Corpus of Contemporary American English 美国当代英语语料库)整理出的5k和20k个高频词汇表，和Macmillan词典标示的7.5k个高频词汇。Macmillan词典将这7.5k个词汇分别用一星，二星，三星标示，其中三星的使用频率最高。我比较喜欢Macmillan的词汇表，从COCA整理出的词汇表网上很多，但我没找到Macmillan的，于是决定自己提取。
 
 初始想法是，既然是用星星图案标示的，直接从星星入手就好了。下载的词典格式是mdx的，在网上找到了转换工具，将其转成txt格式。词典太大，无法在Webstorm中打开，建议用Sublime。观察发现，除了第一个单词外，其余每个单词都在两个</>之间，并且每个单词出现在第一个</>后面，所以提取起来比较简单。
 

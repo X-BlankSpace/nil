@@ -7,7 +7,7 @@ categories:
 - GitHub
 ---
 使用hexo，如果「换了电脑」或者「博客源代码丢失」了怎么方便地更新博客？
-其实hexo生成的文件里有.gitignore，本意应该也是想我们把这些文件push到GitHub上。利用分支备份博客源代码，原理很简单，就是在博客对应的Repository里添加一个分支backup，把源文件push到这个分支上，把hexo生成的静态网页文件deploy在master分支上。<!--more-->
+其实hexo生成的文件里有.gitignore，本意应该也是想我们把这些文件push到GitHub上。利用分支备份博客源代码，原理很简单，就是在博客对应的Repository里添加一个分支backup，把源文件push到这个分支上，把hexo生成的静态网页文件deploy在master分支上。
 ## 利用分支备份博客源代码
 ### 步骤如下
 <ul>
@@ -16,6 +16,9 @@ categories:
 	<li>在本地任意新建一个文件夹，clone博客对应的Repository到这里，复制.git文件夹到你的本地博客的hexo文件夹下，并把hexo文件夹下的_config.yml里的deploy--branch参数修改为master</li>
 	<li>在git客户端中定位到hexo文件夹，使用命令`git checkout -b backup`新建本地分支backup,然后`git push`即可</li>
 </ul>
+
+<!--more-->
+
 ### 日常更新博客
 <ul>
 	<li>对博客进行更新</li>

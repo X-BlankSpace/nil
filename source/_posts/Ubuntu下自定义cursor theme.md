@@ -10,7 +10,7 @@ categories:
 - Linux
 ---
 
-找到喜欢的cursor theme似乎是一件艰难的事...不如自定义好了<!--more-->
+找到喜欢的cursor theme似乎是一件艰难的事...不如自定义好了
 ##	首先准备一张无背景的图片
 一般大小是32x32，暂且命名为arrow.png
 ##	确定鼠标点击位置的坐标
@@ -19,6 +19,9 @@ categories:
 1.暂且命名为arrow.cursor
 
 2.输入<图片水平/垂直像素数> <坐标x> <坐标y> <图片文件名>，如 32 1 1 arrow.png
+
+<!--more-->
+
 ##	生成X11指针
 定位到当前文件夹，输入命令 
 {% codeblock lang:bash %}
